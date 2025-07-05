@@ -1,0 +1,15 @@
+# Data Validation Module
+A comprehensive data validation system for ETL pipelines.
+## Features
+- **Completeness Validation**: Check for missing columns and null values
+- **Data Type Validation**: Ensure columns match expected types
+- **Range Validation**: Verify numeric values are within acceptable ranges
+- **Comprehensive Reporting**: Detailed validation results with specific issues
+## Usage
+Integration with ETL Pipelines
+This validator should be used at key points in data pipelines:
+1. Data Ingestion: Validate raw data quality
+2. Transformation: Ensure transformations don't break data integrity
+3. Loading: Final validation before loading to warehouse
+Testing
+Run tests with:
