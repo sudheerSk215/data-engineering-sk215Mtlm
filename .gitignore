@@ -1,0 +1,57 @@
+# Data files (too large for Git)
+*.csv
+*.xlsx
+*.json
+data/raw/
+data/processed/
+*.parquet
+# Credentials and secrets
+*.env
+config/credentials/
+.aws/
+*.pem
+*.key
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+# OS files
+.DS_Store
+Thumbs.db
+# Logs
+*.log
+logs/
+# Temporary files
+tmp/
+temp/
+*.tmp
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+# Large model files
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+EOF                
+
+
